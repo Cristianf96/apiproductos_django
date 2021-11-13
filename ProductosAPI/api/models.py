@@ -6,5 +6,5 @@ class Productos(models.Model):
     stock = models.IntegerField()
     price = models.IntegerField()
     paused = models.BooleanField()
-    images = models.CharField(max_length=200)
+    images = models.URLField(max_length=200)
     
